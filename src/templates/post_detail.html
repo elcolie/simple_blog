@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>This is my Title Start it now!</title>
-    <h1>{{ title }} is working</h1>
-    {% for obj in object_list %}
-    {{ obj.title }}</br>
-    {{ obj.content }}</br>
-    {{ obj.timestamp }}</br>
-    {{ obj.updated }}</br>
-    {{ obj.id }}</br>
+    <h1>{{ title }}</h1>
+    {{ instance.title }}</br>
+    {{ instance.content }}</br>
+    {{ instance.timestamp }}</br>
+    {{ instance.updated }}</br>
+    {{ instance.id }}</br>
 
-    {% endfor %}
 </head>
 <body>
 

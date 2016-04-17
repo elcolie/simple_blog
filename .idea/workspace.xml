@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c66cea-471a-45b7-bfbc-68bd4b3fdc7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/post_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.sqlite3" afterPath="$PROJECT_DIR$/src/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/posts/urls.py" afterPath="$PROJECT_DIR$/src/posts/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/posts/views.py" afterPath="$PROJECT_DIR$/src/posts/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/simple_blog/settings.py" afterPath="$PROJECT_DIR$/src/simple_blog/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/post_detail.html" afterPath="$PROJECT_DIR$/src/templates/post_detail.html" />
     </list>
     <ignored path="simple_blog.iws" />
     <ignored path=".idea/workspace.xml" />
