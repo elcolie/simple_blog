@@ -6,7 +6,10 @@ class Post(models.Model):
     content = models.TextField()
     updated = models.DateTimeField(auto_now=True, auto_now_add=False)
     timestamp = models.DateTimeField(auto_now=False, auto_now_add=True)
-
+    logo_image = models.ImageField(upload_to='documents/%Y/%m/%d',
+                                   blank=True,
+                                   null=True,
+                                   help_text="200x200 pixels image")  # pip install Pillow
     def __unicode__(self):
         return self.title
 
