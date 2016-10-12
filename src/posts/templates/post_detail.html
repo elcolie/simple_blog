@@ -1,18 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
+
+{% block head_title %}
+{{ instance.title }} | {{ block.super }}
+{% endblock head_title %}}
+
+{% block content %}
 <head>
-    <meta charset="UTF-8">
-    <title>This is my Title Start it now!</title>
+    <title>Start it now!</title>
+
     <h1>{{ title }}</h1>
     {{ instance.title }}</br>
     {{ instance.content }}</br>
     {{ instance.timestamp }}</br>
     {{ instance.updated }}</br>
     {{ instance.id }}</br>
-    <img src='{{ instance.logo_image.url }}' class="img-responsive"/><br>
-
+    {% if instance.logo_image %}
+        <img src='{{ instance.logo_image.url }}' class="img-responsive"/><br>
+    {% endif %}
 </head>
-<body>
-
-</body>
-</html>
+{% endblock content %}

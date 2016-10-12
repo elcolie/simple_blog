@@ -1,6 +1,7 @@
 from django.db import models
 from django.core.urlresolvers import reverse
 
+
 class Post(models.Model):
     title = models.CharField(max_length=120)
     content = models.TextField()
@@ -10,6 +11,7 @@ class Post(models.Model):
                                    blank=True,
                                    null=True,
                                    help_text="200x200 pixels image")  # pip install Pillow
+
     def __unicode__(self):
         return self.title
 
