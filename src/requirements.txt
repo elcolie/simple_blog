@@ -6,3 +6,4 @@
 #
 django==1.10.2
 pillow==3.4.1
+selenium==3.0.2
